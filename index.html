@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="file://C:\Users\dziug\Desktop\Programming\WebDev\TimeTracker\data.jsonp"></script>
+    <script defer src="app.js"></script>
+    <title>Time Tracker App</title>
+  </head>
+  <body>
+    <main>
+      <section class="section-main">
+        <div class="grid-container">
+          <div class="profile-card">
+            <div class="upper-text-box">
+              <img
+                class="profile-img"
+                alt="profile image"
+                src="images/image-jeremy.png"
+              />
+              <div>
+                <p class="report">Report for</p>
+                <p class="name">Jeremy Robson</p>
+              </div>
+            </div>
+            <div class="lower-text-box">
+              <ul class="list">
+                <li class="list-item daily">Daily</li>
+                <li class="list-item weekly">Weekly</li>
+                <li class="list-item monthly">Monthly</li>
+              </ul>
+            </div>
+          </div>
+          <div class="work-card card">
+            <img
+              src="images/icon-work.svg"
+              class="card-icon"
+              alt="console controller"
+            />
+            <div class="text-box">
+              <div class="elips">
+                <h2 class="heading-secondary">Play</h2>
+                <svg
+                  width="21"
+                  class="icon-ellipsis"
+                  height="5"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                    fill="#BBC0FF"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="time-text-box">
+                <p class="time-text">10hrs</p>
+                <p class="subtext">Last Week - 8hrs</p>
+              </div>
+            </div>
+          </div>
+          <div class="play-card card">
+            <img
+              src="images/icon-play.svg"
+              class="card-icon"
+              alt="console controller"
+            />
+            <div class="text-box">
+              <div class="elips">
+                <h2 class="heading-secondary">Play</h2>
+                <svg
+                  width="21"
+                  class="icon-ellipsis"
+                  height="5"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                    fill="#BBC0FF"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="time-text-box">
+                <p class="time-text">10hrs</p>
+                <p class="subtext">Last Week - 8hrs</p>
+              </div>
+            </div>
+          </div>
+          <div class="study-card card">
+            <img
+              src="images/icon-study.svg"
+              class="card-icon"
+              alt="console controller"
+            />
+            <div class="text-box">
+              <div class="elips">
+                <h2 class="heading-secondary">Play</h2>
+                <svg
+                  width="21"
+                  class="icon-ellipsis"
+                  height="5"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                    fill="#BBC0FF"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="time-text-box">
+                <p class="time-text">10hrs</p>
+                <p class="subtext">Last Week - 8hrs</p>
+              </div>
+            </div>
+          </div>
+          <div class="exercise-card card">
+            <img
+              src="images/icon-exercise.svg"
+              class="card-icon"
+              alt="console controller"
+            />
+            <div class="text-box">
+              <div class="elips">
+                <h2 class="heading-secondary">Play</h2>
+                <svg
+                  width="21"
+                  class="icon-ellipsis"
+                  height="5"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                    fill="#BBC0FF"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="time-text-box">
+                <p class="time-text">10hrs</p>
+                <p class="subtext">Last Week - 8hrs</p>
+              </div>
+            </div>
+          </div>
+          <div class="social-card card">
+            <img
+              src="images/icon-social.svg"
+              class="card-icon"
+              alt="console controller"
+            />
+            <div class="text-box">
+              <div class="elips">
+                <h2 class="heading-secondary">Play</h2>
+                <svg
+                  width="21"
+                  class="icon-ellipsis"
+                  height="5"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                    fill="#BBC0FF"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="time-text-box">
+                <p class="time-text">10hrs</p>
+                <p class="subtext">Last Week - 8hrs</p>
+              </div>
+            </div>
+          </div>
+          <div class="selfcare-card card">
+            <img
+              src="images/icon-self-care.svg"
+              class="card-icon"
+              alt="console controller"
+            />
+            <div class="text-box">
+              <div class="elips">
+                <h2 class="heading-secondary">Play</h2>
+                <svg
+                  width="21"
+                  class="icon-ellipsis"
+                  height="5"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                    fill="#BBC0FF"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="time-text-box">
+                <p class="time-text">10hrs</p>
+                <p class="subtext">Last Week - 8hrs</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
